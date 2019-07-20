@@ -18,7 +18,7 @@ public class Router implements Runnable {
      * Add a packet to this router.  Add some details on how this works.
      */
     public void addWork(Packet p) {
-
+    	System.out.println("moo");
     }
     /*
      * End the thread, once no more packets are outstanding.
