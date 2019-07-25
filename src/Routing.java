@@ -94,8 +94,7 @@ public class Routing {
          */
         for (int i = 0; i < 500; i++) {
             int s = rand.nextInt(routingTable.length);
-            //int d = rand.nextInt(routingTable.length);
-            int d = 0; //for testing purposes
+            int d = rand.nextInt(routingTable.length);
             p = new Packet(s, d);
             incPacketCount();
             packetList.add(p);
@@ -115,8 +114,7 @@ public class Routing {
          */
         for (int i = 0; i < 500; i++) {
             int s = rand.nextInt(routingTable.length);
-            //int d = rand.nextInt(routingTable.length);
-            int d = 0; // for testing purposes
+            int d = rand.nextInt(routingTable.length);
             p = new Packet(s, d);
             incPacketCount();
             packetList.add(p);
@@ -145,7 +143,5 @@ public class Routing {
         for (int i = 0; i < packetList.size(); i++) {
             packetList.get(i).Print();
         }
-        System.out.println("moo");
-        System.out.println("packetCount: " + Routing.getPacketCount());
     }
 }
