@@ -141,7 +141,8 @@ public class Routing {
         */
 
         for (int i = 0; i < packetList.size(); i++) {
-            packetList.get(i).Print();
+        	packetList.get(i).Print();
         }
+
     }
 }
